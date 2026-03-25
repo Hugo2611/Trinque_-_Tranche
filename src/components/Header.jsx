@@ -19,7 +19,7 @@ function Header() {
         <div className="flex items-center justify-between gap-4">
           <Link to="/" className="group">
             <img
-              src="/Gemini_Generated_Image_h49bcwh49bcwh49b.png"
+              src="/logo.png"
               alt="Logo Trinque & Tranche"
               className="h-20 w-auto sm:h-24"
             />
