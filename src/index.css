@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles globaux minimaux pour une base propre */
+body {
+  @apply font-sans text-stone-700 antialiased;
+  background:
+    radial-gradient(circle at 10% 0%, #fff6df 0%, transparent 40%),
+    radial-gradient(circle at 90% 20%, #fef3c7 0%, transparent 35%),
+    #f8f3e7;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply font-serif text-stone-900;
+}
+
+#root {
+  @apply min-h-screen;
+}
+
+/* Scrollbar discrète et chaleureuse (desktop). */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #c98b55;
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #efe6d4;
+}
